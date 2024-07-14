@@ -2,11 +2,10 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import { HomeCarousalData } from './data';
+//import styles from './index.scss';
 
 const items = HomeCarousalData.map((item) =>
-    <div className='img-div'>
-        <img className='cursor-pointer' role='presentation' src={item.image} alt=""></img>
-    </div>
+    <img className='cursor-pointer' role='presentation' src={item.image} alt=""></img>
 );
 
 const HomeCarousel = () => {
