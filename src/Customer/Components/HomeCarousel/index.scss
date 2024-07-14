@@ -1,4 +1,10 @@
-.item{
-    width: max-content;
-    height: auto;
+.img-div {
+    display: flex;
+  justify-content: center;
+    width: 100%; /* set a fixed width or use a percentage value for responsiveness */
+
+}
+img{
+    margin: auto;
+    padding: auto;
 }

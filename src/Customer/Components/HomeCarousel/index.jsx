@@ -1,21 +1,18 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import { HomeCarousalData } from './data';
 
-const items = [
-    <div className="item" data-value="1">1</div>,
-    <div className="item" data-value="2">2</div>,
-    <div className="item" data-value="3">3</div>,
-    <div className="item" data-value="4">4</div>,
-    <div className="item" data-value="5">5</div>,
-];
-
-const HomeCarousel = () => (
-    <AliceCarousel
-        mouseTracking
-        items={items}
-        controlsStrategy="alternate"
-    />
+const items = HomeCarousalData.map((item) =>
+    <div className='img-div'>
+        <img className='cursor-pointer' role='presentation' src={item.image} alt=""></img>
+    </div>
 );
+
+const HomeCarousel = () => {
+    return(
+        <AliceCarousel items={items}/>
+    )
+};
 
 export default HomeCarousel;

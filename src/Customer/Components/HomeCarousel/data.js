@@ -1,0 +1,22 @@
+export const HomeCarousalData = [
+    {
+        image:"https://images.unsplash.com/photo-1560915109-f54ff3d7664c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3VtbWVyJTIwZHJlc3N8ZW58MHwwfDB8fHww",
+        path:"/women/clothes/summerwear/orangepolka"
+    },
+    {
+        image:"https://images.unsplash.com/photo-1526812844132-7681a0a01b5c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3VtbWVyJTIwZHJlc3N8ZW58MHwwfDB8fHww",
+        path:""
+    },
+    {
+        image:"https://images.unsplash.com/photo-1526925613419-40e0b4c48324?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN1bW1lciUyMGRyZXNzfGVufDB8MHwwfHx8MA%3D%3D",
+        path:""
+    },
+    {
+        image:"https://images.unsplash.com/photo-1500016105938-ff8d87ed0368?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1bW1lciUyMGRyZXNzfGVufDB8MHwwfHx8MA%3D%3D",
+        path:""
+    },
+    {
+        image:"https://images.unsplash.com/photo-1565033434504-737427e97bdb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHN1bW1lciUyMGRyZXNzfGVufDB8MHwwfHx8MA%3D%3D",
+        path:""
+    },
+]
