@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-      <div>
-        <HomePage/>
-      </div>
+      <HomePage/>
     </div>
   );
 }
