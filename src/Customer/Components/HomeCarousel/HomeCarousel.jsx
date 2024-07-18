@@ -1,7 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import { HomeCarousalData } from "./data";
+import {HomeCarousalData} from '../../Data/HomeCarousalData.js'
 
 const items = HomeCarousalData.map((item) => (
         <img
